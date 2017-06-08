@@ -1,0 +1,16 @@
+body {
+  background: #eeaaff; }
+
+p {
+  color: #8800aa; }
+
+.box {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #8800aa; }
+
+/*# sourceMappingURL=style.css.map */

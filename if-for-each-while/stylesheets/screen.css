@@ -1,0 +1,51 @@
+.some-selector {
+  display: block;
+}
+
+.photo-1 {
+  background: url('/images/photo.png') no-repeat left 1px;
+}
+
+.photo-2 {
+  background: url('/images/photo.png') no-repeat left 2px;
+}
+
+.photo-3 {
+  background: url('/images/photo.png') no-repeat left 3px;
+}
+
+.photo-4 {
+  background: url('/images/photo.png') no-repeat left 4px;
+}
+
+.author-bio .photo-adam {
+  background: url('/images/avatars/adam.png') no-repeat;
+}
+.author-bio .photo-john {
+  background: url('/images/avatars/john.png') no-repeat;
+}
+.author-bio .photo-wynn {
+  background: url('/images/avatars/wynn.png') no-repeat;
+}
+.author-bio .photo-mason {
+  background: url('/images/avatars/mason.png') no-repeat;
+}
+.author-bio .photo-kuroir {
+  background: url('/images/avatars/kuroir.png') no-repeat;
+}
+
+.while-4 {
+  width: 24px;
+}
+
+.while-3 {
+  width: 23px;
+}
+
+.while-2 {
+  width: 22px;
+}
+
+.while-1 {
+  width: 21px;
+}

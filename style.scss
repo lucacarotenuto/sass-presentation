@@ -1,0 +1,24 @@
+$primaryColor: #eeaaff;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+body {
+  background: $primaryColor;
+}
+
+p {
+  color: darken($primaryColor, 50%);  
+}
+
+.box {
+    @include border-radius(20px);
+    width: 100px;
+    height: 100px;
+    background-color: darken($primaryColor, 50%);
+}
+
